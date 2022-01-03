@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 #Establishing Connection
 connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host='172.17.0.2'))
+    pika.ConnectionParameters(host='hostname'))
 channel = connection.channel()
 
 #Declaring exchange
