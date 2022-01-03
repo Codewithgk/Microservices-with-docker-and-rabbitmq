@@ -5,7 +5,7 @@ from email.mime.multipart import MIMEMultipart
 
 
 def main():
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host='172.17.0.2'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='hostname'))
     channel = connection.channel()
 
     #Declaring exchange
@@ -20,7 +20,7 @@ def main():
         # print(datadict)
         
         #Initailizing Variables for email
-        fromaddr = "Gaurav.kamble@coditation.com"
+        fromaddr = "desired email address"
         toaddr = datadict[0]["toaddr"]
         sub = datadict[0]["subject"]
 
@@ -36,7 +36,7 @@ def main():
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
         #getting login details 
-        server.login(fromaddr, "aclbsfgffrkpgsea")
+        server.login(fromaddr, "google app hashkey")
         text = msg.as_string()
         #sending email
         server.sendmail(fromaddr, toaddr, text)
