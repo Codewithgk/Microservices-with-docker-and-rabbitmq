@@ -19,7 +19,7 @@ logger.info("New msg")
 data = []
 #making connection 
 def main():
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host='172.17.0.2'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='hostname'))
     channel = connection.channel()
 
     # channel.queue_declare(queue='log')
