@@ -1,0 +1,20 @@
+2021-12-29 12:35:23,173 : __main__ : New msg
+2021-12-29 12:35:23,174 : __main__ : []
+2021-12-29 12:39:06,209 : __main__ : New msg
+2021-12-29 12:39:06,209 : __main__ : []
+2021-12-29 12:41:57,228 : __main__ : New msg
+2021-12-29 12:41:57,228 : __main__ : []
+2021-12-29 12:42:24,519 : __main__ : New msg
+2021-12-29 12:42:24,519 : __main__ : []
+2021-12-29 12:42:47,890 : __main__ : New msg
+2021-12-29 12:42:47,890 : __main__ : []
+2021-12-29 15:39:28,283 : __main__ : New msg
+2021-12-29 15:39:28,283 : __main__ : []
+2021-12-29 15:43:38,235 : __main__ : [{'toaddr': 'gaurav.kamble@coditation.com', 'subject': 'Hello Now test 4', 'body': "Hi I'm just the body of this mail"}]
+2021-12-29 15:46:49,504 : __main__ : [{'toaddr': 'gaurav.kamble@coditation.com', 'subject': 'Hello Now test 5', 'body': "Hi I'm just the body of this mail"}]
+2021-12-30 05:00:47,666 : __main__ : New msg
+2021-12-30 05:00:47,666 : __main__ : []
+2021-12-30 05:02:18,236 : __main__ : [{'toaddr': 'gaurav.kamble@coditation.com', 'subject': 'New email Final', 'body': "Hi I'm just the body of this mail"}]
+2021-12-31 12:11:42,162 : __main__ : New msg
+2021-12-31 12:11:42,163 : __main__ : []
+2021-12-31 12:16:19,089 : __main__ : [{'toaddr': 'sohamkadam0816@gmail.com', 'subject': 'Hello from Gaurav', 'body': "Hi I'm just the body of this mail"}]
